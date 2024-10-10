@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Tailwind link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- CSS link -->
+    <link rel="stylesheet" href="/style.css">
+    <!-- Document title -->
+    <title>Portfolio</title>
+</head>
+
+
+
+<body class="bg-gray-900">
+    
+    <header>
+        <nav class="bg-gray-800  text-white font-outfit flex flex-wrap justify-between px-4 md:px-20 py-3 items-center shadow-gray-950">
+            <h1 class="font-bold text-2xl sm:justify-start cursor-pointer">Rumino</h1>
+            <div class="flex flex-wrap space-x-4 md:space-x-10 items-center">    
+                <ul class="flex flex-wrap space-x-4 md:space-x-6">
+                    <li><a href="#" class="hover:text-orange-400 hover:font-semibold hover:underline">Home</a></li>
+                    <li><a href="#" class="hover:text-orange-400 hover:font-semibold hover:underline">Skills</a></li>
+                    <li><a href="#" class="hover:text-orange-400 hover:font-semibold hover:underline">Projects</a></li>
+                    <li><a href="#" class="hover:text-orange-400 hover:font-semibold hover:underline">Contacts</a></li>
+                </ul>            </div>
+        </nav>
+    </header>
+
+    <!-- Hero section -->
+    <section style="background-image: url('/Images/hyperrealistic_african_developer_home_studio_cityscape_w74qgn5wwlzdygp6tv1k_0.png');" class="relative bg-cover bg-center h-screen">
+        <div class="absolute inset-0 bg-black bg-opacity-75"></div> <!-- Couche d'opacité -->
+
+        <div class="relative z-10 flex flex-col justify-center items-center h-full text-center text-white">
+            <h1 class="text-4xl md:text-6xl font-bold">Welcome to my Website</h1>
+            <p class="mt-5 text-lg md:text-xl">Making beautiful content creation with ease !</p>
+            <a href="#about" class="mt-8 bg-blue-700 px-6 py-3 rounded hover:bg-blue-600 text-white font-semibold">Learn More</a>
+        </div>
+    </section>
+
+    <!-- Skills section -->
+    <section class="my-20 py-20 bg-gray-800">
+        <div class="container mx-auto px-20">
+            <h2 class="text-3xl font-bold text-center mb-10 text-white">My skills</h2>
+
+            <!-- Skills grid -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 text-gray-800">
+                
+                <!-- Individual skill bloc -->
+                <div class="p-6 bg-white rounded shadow-lg text-center hover:shadow-xl hover:shadow-gray-900 transition-shadow duration-300">
+                    <img src="/Icons/icons8_Paintbrush.svg" class="w-16 h-16 mx-auto blink-animation">
+                    <h3 class="mt-4 font-bold text-lg">Graphic Design</h3>
+                    <p class="text-gray-600 mt-2">Photoshop, Illustrator, InDesign</p>
+                </div>
+
+                <!-- Individual skill bloc -->
+                <div class="p-6 bg-white rounded shadow-lg text-center hover:shadow-xl hover:shadow-gray-900 transition-shadow duration-300">
+                    <img src="/Icons/icons8_video.svg" class="w-14 h-14 mx-auto blink-animation">
+                    <h3 class="mt-4 font-bold text-lg">Motion Design</h3>
+                    <p class="text-gray-600 mt-2">After Effects, Premiere Pro, Capcut</p>
+                </div>
+
+                <!-- Individual skill bloc -->
+                <div class="p-6 bg-white rounded shadow-lg text-center hover:shadow-xl hover:shadow-gray-900 transition-shadow duration-300">
+                    <img src="/Icons/icons8_web.svg" class="w-16 h-16 mx-auto blink-animation">
+                    <h3 class="mt-4 font-bold text-lg">UI & UX Design</h3>
+                    <p class="text-gray-600 mt-2">Adobe XD, Figma</p>
+                </div>
+
+                <!-- Individual skill bloc -->
+                <div class="p-6 bg-white rounded shadow-lg text-center hover:shadow-xl hover:shadow-gray-900 transition-shadow duration-300">
+                    <img src="/Icons/icons8_headset.svg" class="w-16 h-16 mx-auto blink-animation">
+                    <h3 class="mt-4 font-bold text-lg">Sound Design</h3>
+                    <p class="text-gray-600 mt-2">Adobe Audition, FL Studio, Premiere Pro</p>
+                </div>
+
+                <!-- Individual skill bloc -->
+                <div class="p-6 bg-white rounded shadow-lg text-center hover:shadow-xl hover:shadow-gray-900 transition-shadow duration-300">
+                    <img src="/Icons/icons8_blender_3d.svg" class="w-16 h-16 mx-auto blink-animation">
+                    <h3 class="mt-4 font-bold text-lg">Animation 3D</h3>
+                    <p class="text-gray-600 mt-2">Blender, ZBrush, Substance Painter</p>
+                </div>
+
+                <!-- Individual skill bloc -->
+                <div class="p-6 bg-white rounded shadow-lg text-center hover:shadow-xl hover:shadow-gray-900 transition-shadow duration-300">
+                    <img src="/Icons/icons8_remote_desktop.svg" class="w-16 h-16 mx-auto blink-animation">
+                    <h3 class="mt-4 font-bold text-lg">Software Development</h3>
+                    <p class="text-gray-600 mt-2">HTML5, CSS3, JavaScript</p>
+                </div>
+
+                <!-- Individual skill bloc -->
+                <div class="p-6 bg-white rounded shadow-lg text-center hover:shadow-xl hover:shadow-gray-900 transition-shadow duration-300">
+                    <img src="/Icons/icons8_mobile.svg" class="w-16 h-16 mx-auto blink-animation">
+                    <h3 class="mt-4 font-bold text-lg">Mobile Development</h3>
+                    <p class="text-gray-600 mt-2">Flutter, Dart, Kotlin</p>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Projects section -->
+    <section id="projects" class="py-20 bg-gray-800">
+        <div class="container mx-auto px-20">
+            <h2 class="text-3xl font-bold text-center mb-10 text-white">My projects</h2>
+            
+            <!-- Projects grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 text-gray-800">
+
+                <!-- Individual project bloc -->
+                <div class="bg-white shadow-lg rounded overflow-hidden hover:shadow-xl hover:shadow-gray-900 transition-shadow duration-300">
+                    <img src="/Images/Nexa Flyer 001.png" class="w-full h-48 object-cover object-top">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Nexa Services</h3>
+                        <p class="text-gray-600">Logo, flyer and roll-up creation</p>
+                    </div>
+                </div>
+
+                <!-- Individual project bloc -->
+                <div class="bg-white shadow-lg rounded overflow-hidden hover:shadow-xl hover:shadow-gray-900 transition-shadow duration-300">
+                    <img src="/Images/WhatsApp Image 2024-05-06 à 09.29.31_af344471.jpg" class="w-full h-48 object-cover object-top">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Fako Drop</h3>
+                        <p class="text-gray-600">Logo, flyer and roll-up creation</p>
+                    </div>
+                </div>
+
+                <!-- Individual project bloc -->
+                <div class="bg-white shadow-lg rounded overflow-hidden hover:shadow-xl hover:shadow-gray-900 transition-shadow duration-300">
+                    <img src="/Images/SPJ Flyer 024.png" class="w-full h-48 object-cover object-center">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">EEC : Église Évangélique du Congo</h3>
+                        <p class="text-gray-600">Logo, flyer and roll-up creation</p>
+                    </div>
+                </div>
+
+                <!-- Individual project bloc -->
+                <div class="bg-white shadow-lg rounded overflow-hidden hover:shadow-xl hover:shadow-gray-900 transition-shadow duration-300">
+                    <img src="/Images/WX Flyer 009.png" class="w-full h-48 object-cover object-center">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Webtinix</h3>
+                        <p class="text-gray-600">Logo, flyer and roll-up creation</p>
+                    </div>
+                </div>
+
+                <!-- Individual project bloc -->
+                <div class="bg-white shadow-lg rounded overflow-hidden hover:shadow-xl hover:shadow-gray-900 transition-shadow duration-300">
+                    <img src="/Images/Cover Paie Tes Dettes With Download.png" class="w-full h-48 object-cover object-top">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">African Consciences</h3>
+                        <p class="text-gray-600">Logo, flyer and roll-up creation</p>
+                    </div>
+                </div>
+
+                <!-- Individual project bloc -->
+                <div class="bg-white shadow-lg rounded overflow-hidden hover:shadow-xl hover:shadow-gray-900 transition-shadow duration-300">
+                    <img src="/Images/3I1A1125.JPG" class="w-full h-48 object-cover object-bottom">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">IARS : Institut Africain de la Réflexion Stratégique</h3>
+                        <p class="text-gray-600">Logo, flyer and roll-up creation</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Form section -->
+    <section class="container mx-auto my-20 px-4">
+        <h2 class="text-3xl font-bold text-center mb-8 text-white">Contact Us</h2>
+
+        <form action="#" method="post" class="max-w-lg mx-auto bg-white p-8 rounded shadow-lg">
+
+            <!-- Name field -->
+            <div class="mb-6">
+                <label for="name" class="block text-gray-700 text-sm font-semibold mb-2">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name"
+                       class="w-full px-3 py-2 border border-gray-700 rounded focus:outline-none focus:ring-2 focus:ring-blue-500">
+            </div>
+
+            <!-- E-mail field -->
+            <div class="mb-6">
+                <label for="email" class="block text-gray-700 text-sm font-semibold mb-2">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="Your Mail"
+                       class="w-full px-3 py-2 border border-gray-700 rounded focus:outline-none focus:ring-2 focus:ring-blue-500">
+            </div>
+
+            <!-- Message field -->
+            <div class="mb-6">
+                <label for="message" class="block text-gray-700 text-sm font-semibold mb-2">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Your Message"
+                          class="w-full px-3 py-2 border border-gray-700 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+            </div>
+
+            <!-- Submit button -->
+            <div class="text-center">
+                <button type="submit" class="bg-blue-700 text-white font-semibold py-2 px-4 rounded hover:bg-blue-600 transition">
+                    Send Message
+                </button>
+            </div>
+        </form>
+    </section>
+</body>
+
+
+
+<footer class="bg-gray-800 text-white py-4">
+    <div class="container mx-auto px-4">
+
+        <!-- Social Media Icons -->
+        <div class="flex justify-center items-center mb-4">
+            <a href="#" class="mx-2">
+                <img src="/Icons/icons8_linkedin_1.svg" class="w-4 h-4">
+            </a>
+            <a href="#" class="mx-2">
+                <img src="/Icons/icons8_github.svg" class="w-6 h-6">
+            </a>            <a href="#" class="mx-2">
+                <img src="/Icons/icons8_slack_new.svg" class="w-5 h-5">
+            </a>
+        </div>
+
+        <!-- Copyright Information -->
+        <div class="text-center">
+            <p class="text-sm">&copy; 2024 Rumino. All rights reserved.</p>
+        </div>
+
+    </div>
+</footer>
+
+</html>
